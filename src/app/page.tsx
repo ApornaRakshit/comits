@@ -1,20 +1,11 @@
-// import Header from "@/Components/Header";
-// import Overview from "@/Components/Overview";
-
-// export default function Home() {
-//   return (
-//     <main className="min-h-screen bg-black flex justify-center items-start py-6">
-//       <div className="w-full max-w-[430px] min-h-screen bg-[#F5F7FA] rounded-3xl overflow-hidden shadow-2xl">
-//         <Header />
-//         <Overview />
-//       </div>
-//     </main>
-//   );
-// }
-
-
 import Header from "@/Components/Header";
 import Overview from "@/Components/Overview";
+import QuickActions from "@/Components/QuickActions";
+import MyAccounts from "@/Components/MyAccounts";
+import BalanceCard from "@/Components/BalanceCard";
+import SummaryCards from "@/Components/SummaryCards";
+import RecentTransactions from "@/Components/RecentTransactions";
+import BottomNavigation from "@/Components/BottomNavigation";
 
 export default function Home() {
   return (
@@ -28,6 +19,12 @@ export default function Home() {
 
           <Header />
           <Overview />
+          <QuickActions />
+          <MyAccounts />
+          <BalanceCard />
+          <SummaryCards />
+          <RecentTransactions />
+          <BottomNavigation />
 
         </div>
 

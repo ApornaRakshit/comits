@@ -94,11 +94,11 @@ function Overview() {
                         {/* Right */}
                         <div className="flex flex-col gap-3">
 
-                            <button className="bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-lg font-medium transition">
+                            <button className="bg-red-400 hover:bg-red-600 text-white px-6 py-2 rounded-lg font-medium transition">
                                 Debit
                             </button>
 
-                            <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg font-medium transition">
+                            <button className="bg-yellow-400 hover:bg-yellow-500 text-white px-6 py-2 rounded-lg font-medium transition">
                                 Credit
                             </button>
 
